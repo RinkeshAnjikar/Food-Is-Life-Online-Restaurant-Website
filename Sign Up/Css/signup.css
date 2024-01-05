@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.section {
+    background-color: rgba(255, 255, 255, 0.137);
+    width: 35%;
+    height: 6in;
+    margin-left: 60%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.section h1 {
+    margin-left: 28%;
+    font-size: 1.8rem;
+    background-color: yellow;
+    color: black;
+    width: 46%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    width: 30%;
+    border-radius: 8px;
+    height: 0.3in;
+    text-indent: 10px;
+    margin-bottom: 4%;
+}
+input[type="email"]{
+    width: 50%;
+    border-radius: 8px;
+    height: 0.3in;
+    text-indent: 10px;
+    margin-bottom: 4%;
+}
+
+div p {
+    margin-left: 8%;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    margin-left: 8%;
+}
+
+input[type="reset"] {
+    width: 40%;
+    padding: 5px;
+    margin-left: 30%;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.808);
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 3%;
+}
+
+input[type="reset"]:hover {
+    background-color: rgba(255, 0, 0, 0.589);
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 25%;
+    padding: 8px;
+    margin-left: 38%;
+    border-radius: 15px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input[type="submit"]:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}

@@ -1,0 +1,243 @@
+/* trolley */
+
+.trolley {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 1400px;
+    }
+}
+
+
+/* my orders */
+
+h1 {
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    background-color: green;
+    padding: 15px;
+    color: blanchedalmond;
+}
+
+
+/* main image */
+
+.main-image {
+    width: 80%;
+    height: 3in;
+    margin-left: 9%;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+.main_body {
+    background-color: rgba(112, 128, 144, 0.582);
+    border-radius: 20px;
+    margin: 2%;
+}
+
+
+/* styling of menu */
+
+.veg_menu {
+    background-color: rgba(255, 68, 0, 0.822);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 40px;
+    font-size: 1.2rem;
+    margin-top: 3%;
+    float: left;
+    border-radius: 50px;
+}
+
+.veg_menu h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 15px;
+    color: black;
+}
+
+.non_veg {
+    background-color: rgba(255, 68, 0, 0.822);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 40px;
+    font-size: 1.2rem;
+    ;
+    margin-top: 3%;
+    float: left;
+    border-radius: 50px;
+}
+
+.non_veg h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 15px;
+    color: black;
+}
+
+.shakes_drinks {
+    background-color: rgba(255, 68, 0, 0.822);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 40px;
+    font-size: 1.2rem;
+    margin-top: 3%;
+    float: left;
+    border-radius: 50px;
+}
+
+.shakes_drinks h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 15px;
+    color: black;
+}
+
+.veg_menu,
+.non_veg,
+.shakes_drinks,
+.sweets_desserts,
+.Specials,
+.add_on {
+    margin-left: 5%;
+    width: 20%;
+    height: 5in;
+    margin-bottom: 5%;
+}
+
+.sweets_desserts {
+    background-color: rgba(255, 68, 0, 0.822);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 40px;
+    font-size: 1.2rem;
+    margin-top: 3%;
+    float: left;
+    border-radius: 50px;
+}
+
+.sweets_desserts h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 15px;
+    color: black;
+}
+
+.Specials {
+    background-color: rgba(255, 68, 0, 0.822);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 40px;
+    font-size: 1.2rem;
+    margin-top: 3%;
+    float: left;
+    border-radius: 50px;
+}
+
+.Specials h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 15px;
+    color: black;
+}
+
+.add_on {
+    background-color: rgba(255, 68, 0, 0.822);
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 40px;
+    font-size: 1.2rem;
+    margin-top: 3%;
+    float: left;
+    border-radius: 50px;
+}
+
+.add_on h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 15px;
+    color: black;
+}
+
+
+/* terms and conditions */
+
+.footer {
+    text-align: center;
+    clear: both;
+    background-color: black;
+    color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.terms-and-conditions {
+    clear: both;
+    background-color: rgba(128, 128, 128, 0.781);
+    font-weight: 0.9rem;
+}
+
+
+/* checkout */
+
+.checkout {
+    clear: both;
+}
+
+input[type="submit"] {
+    background-color: rgba(65, 89, 230, 0.822);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(92, 230, 92, 0.842);
+    text-transform: uppercase;
+}

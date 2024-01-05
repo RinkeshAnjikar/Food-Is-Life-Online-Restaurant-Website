@@ -1,0 +1,280 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+background-color:honeydew;
+
+}
+
+/* Styling Of Header */
+
+header {
+    background-color: rgb(245, 230, 170); 
+    
+}
+
+header img {
+    width: 140px;
+    margin-left: 20px;
+    float: left; 
+    background-color :rgb(68, 68, 68);
+    padding: 10px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+header h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 4em;
+    color: black;
+}
+header ul {
+    
+    width: 120px;
+    margin-top: 1px;
+    float: right; 
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+header ul li {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    text-align: center;
+    
+}
+header li {
+    margin-top: 2px;
+}
+a {   
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+   
+}
+ul li { 
+    list-style-type :none;
+    padding: 1px;
+    font-size: larger
+}
+header a:hover {
+    color: black;
+    background-color: rgba(109, 105, 105, 0.123);
+  border-radius: 150px;
+
+}
+
+/* Styling Navigation */
+
+nav .navigation {
+    position: sticky;
+}
+
+nav ul {
+background-color: rgba(88, 219, 236, 0.418);
+
+}
+
+nav ul li,
+nav ul li a {
+    display: inline-block;
+    color: black;
+    border-radius: 10px;
+}
+nav ul li a:link,
+nav ul li a :visited {
+    text-decoration: none;
+    padding:  15px 50px ;
+    transition: all;
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+    background-color: #42adf5;
+    font-size: 20px;
+}
+
+nav .Search {
+    float: right;
+    margin-top: 18px;
+    margin-right: 70px;
+    width: 20%;
+    height: 27px;
+    border-radius: 10px;
+    text-indent: 110px;
+    font-size: 0.9rem;
+}
+
+
+/*  Styling Main Body */
+
+.Items {
+    background-color :rgba(232, 240, 120, 0.315);
+    border: 5px solid rgb(255, 255, 0);
+    width: 70%;
+    margin-top: 7%;
+    margin-left: 5%;
+    border-radius: 9px;
+    float: left;
+}
+
+
+article .img {
+    padding: 15px;
+    width: 25%;
+    border-radius: 25px;
+    float: left;
+    height: 260px;
+
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-color:rgb(174, 245, 183);
+    padding: 5px;
+    border: .1em solid black;
+    margin-left: 30%;
+    margin-right: 40%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border-radius: 20px;
+}
+
+article p {
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    padding: 8px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Styling of sidebar */
+
+.leftsideline {
+    background-color: rgba(0, 0, 0, 0.432);
+    float: left;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    padding-left: 20px;
+    padding-right: 55px;
+    padding-top: 950px;
+    height: 300vh;
+    width: 10px;
+    border-radius: 10px;
+}
+
+
+.heading  {
+    text-align: center;
+    padding: 30px;
+    border: 5px solid black;
+    font-size: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    border-radius: 15px;
+    font-family: 'Satisfy', cursive;
+    background-color:rgba(255, 0, 0, 0.842);
+    color: white;
+    text-shadow: 20px 30px 10px black;
+}
+
+/* Styling sidebar */
+
+aside {
+    background-color:rgb(255, 63, 29);
+    margin-left: 85%;
+    margin-right: 2%;
+    margin-top: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+div aside p {
+font-size: 1.1rem;
+color: wheat;
+}
+
+div aside h3 {
+    font-size: 2.2rem;
+    color: white;
+    text-shadow: 10px 1px 10px black;
+    padding-bottom: 5px;
+}
+.ad_section{
+    text-align: center;
+   
+}
+
+div aside .ad {
+   
+    height: 300px;
+}
+/* Styling Button */
+
+.myorders {
+    text-align: center;
+    padding: 20px;
+    clear: both;   
+}
+input[type="submit"] {
+    background-color: rgb(123, 255, 0);
+    color: white;
+    text-shadow: 5px 18px 10px black;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding-bottom: 9px;
+    width: 30%;
+    height: 70px;
+    font-size: 3rem;
+    font-family: 'Permanent Marker', cursive;
+}
+input[type="submit"]:hover {
+    background-color: orangered ;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/* Styling of Footer */
+
+footer h2 {
+    
+    background-color: rgba(0, 0, 0, 0.911);
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+h2 {
+    color: white
+}
+footer div h2 {
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5ch;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4rem;
+    
+}
+
+footer div p {
+    clear: both; 
+    margin: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

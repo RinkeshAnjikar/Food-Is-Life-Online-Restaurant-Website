@@ -1,0 +1,74 @@
+body {
+    background-image: url(../IMAGES/signin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signin {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    height: 4.5in;
+    margin-left: 60%;
+    margin-top: 10%;
+    border-radius: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 60%;
+    height: 0.3in;
+    border-radius: 10px;
+    text-indent: 5px;
+    margin-top: 5%;
+}
+
+div p {
+    margin-left: 15%;
+    font-size: 1.3rem;
+}
+
+div h3 {
+    background-color: gold;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    margin-left: 27%;
+    border-radius: 5px;
+}
+
+.account {
+    margin-left: 20%;
+    font-weight: 700;
+}
+
+input[type="submit"] {
+    width: 50%;
+    height: 0.4in;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(27, 201, 27);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.dont {
+    color: black;
+    font-weight: 900;
+}
+
+input[type="reset"] {
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 4px;
+}
+input[type="reset"]:hover {
+    background-color: rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+}

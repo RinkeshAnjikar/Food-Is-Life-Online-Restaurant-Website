@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="icon" href="../Logo/logo5.png">
+</head>
+
+
+<body>
+    <header>
+        <br>
+        <br>
+        <img src="../Logo/logo5.png" alt="This is Logo">       
+        <ul>
+            <li><a href="../../Sign in Form/HTML/signin.html">Sign In</a></li>
+            <li><a href="../../Home Page/html/Index.html">Account</a></li>
+            <li><a href="../../menu/html/menu.html">My Orders</a></li>
+        </ul>
+        <h1>"One can't sleep well,if has not dined well"</h1>
+
+        
+    </header>
+    <br>
+    <br>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="../../Home Page/html/Index.html" class="active"> <b> Home </b></a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Our Chefs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+            <input type="search" name="" id="" class="Search" placeholder="Search Food">
+        </ul>
+    </nav>
+
+    <div class="div">
+        <form action="../../Feedback Form/html/feedback.html">
+            <h1 class="main_heading">Payment Form</h1>
+
+
+            <section class="container">
+                <p>Name: <input type="text" name="name" placeholder="Enter Your Name"> Surname: <input type="text" name="name" placeholder="Enter Your Surname"></p><br>
+                <p>My Order No.(#Code): <input type="text" name="Order" placeholder="Enter Your Order No."></p>
+                <p>Payment Amount: Rs:- <input type="number" name="Amount" placeholder="Amount"></p> <br> Scan & Pay
+                <br>
+                <p class="scan"> <img class="qrcode" src="../Images/qr.jfif" alt="This Is QR "></p>
+
+
+            </section>
+            <br>
+            <br>
+
+            <section class="container2">
+                <p>Card Number: <input type="number" name="Card No." placeholder="Enter Your Card Number"></p>
+                <p>Name Of Card Holder: <input type="text" name="Cardholder" placeholder="Enter Your Name"></p>
+                <p>Expiry Date <input type="month" name="date" placeholder="MM/YY"> Security Code/OTP <input type="number" name="otp" placeholder="1234"></p>
+
+
+
+                <p>Card Type:
+                    <select name="card_type" id="card_type">
+    <option value="">--Select a Card Type--</option>
+    <option value="visa">Visa</option>
+    <option value="mastercard">Mastercard</option>
+    <option value="rupay">Rupay</option>
+</select>
+                </p>
+                <p>CVV <input type="password" name="password" placeholder="###"></p>
+            </section>
+            <br>
+
+            <section class="container">
+                <p>
+                    Coupon code <input type="text" name="coupon"> UPI/Gpay/Paytm <input type="text" name="upi" placeholder="name@apl">
+                </p>
+            </section>
+            <br>
+            <br>
+            <div class="submit">
+                <a href="../../Feedback Form/html/feedback.html" target="_blank"> <input type="submit" name="submit" value="Pay Now"> </a>
+            </div>
+            <br>
+            <br>
+        </form>
+    </div>
+    <br>
+    <div>
+        <aside class="aside-1">
+            <section class="section1">
+                <h4 class="cashback">CashBack Offers</h4>
+                <br>
+                <p> Pay via UPI , get flat 10% Cashback!</p>
+                <p>Earn 10% cashback upto Rs. 200 on minimum purchase of ₹500 using postpe card.<br> Valid only once per user.</p>
+                <p>Cashback upto Rs. 200 on minimum purchase of ₹500 using postpe card. Valid only once per user.</p>
+                <hr>
+                <br>
+                <h4> Bank Offers</h4>
+                <br>
+                <p>Get 10X CashPoints with HDFC Bank MoneyBack+ Credit Cards and 2X Reward Points with Rupay Credit Cards</p>
+                <p>Get upto 5% Cashback on HDFC Bank Mastercard Credit Cards</p>
+                <p>5% Instant Discount on Visa/Rupay Transactions</p>
+            </section>
+        </aside>
+        <br>
+        <br>
+        <aside class="aside-2">
+            <section class="section2">
+                <h4> Coupons and Discounts</h4>
+                <br>
+                <p>Enter your coupons & SAVE MORE!!. </p>
+                <p>Enter your Promo code and get amazing discounts!!</p>
+                <img class="savemoney" src="../Images/SaveMoney.png" alt="">
+            </section>
+
+        </aside>
+    </div>
+    <footer>
+        <h2>Terms and Conditions</h2>
+        <p class="terms">
+            Cancellation / Refund Policy <br> Cancellation and Refund of Fee/Charges once made by filling the Admission Forms with credit card details etc., at User’s request, shall not be allowed under any circumstances.
+        </p>
+        <p class="terms">
+            Charges: <br> FSM shall charge the Non-refundable fees or other charges from a user, in respect of its products and service or any other aspect of this Site which is to be paid by you by submitting the Admission form with online payment option
+            through your Credit Card.
+        </p>
+        <p class="terms">
+            Revision of Fees/Changes <br> FSM reserves a right to revise the fees or other charges or withdraw or suspend / cancel, or discontinue any or all of the services without prior notice, make modifications and alterations in any or all of the
+            content, products and services contained on the site without prior notice and at the sole discretion of the FSM
+        </p>
+        <p class="terms">
+            Non-Delivery or late delivery due to mistakes of user: <br> In case of non-delivery or late delivery due to a mistake by the user (i.e. writing or incomplete name or address or recipient not available), any extra charges incurred for re-delivery
+            shall be claimed from the user placing the requests.
+        </p>
+    </footer>
+</body>
+
+</html>
